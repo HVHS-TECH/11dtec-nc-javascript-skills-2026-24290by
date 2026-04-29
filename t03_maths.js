@@ -1,5 +1,7 @@
 
-Name of task: Maths 
+/******************************
+ Name of task: Maths
+ ******************************/
 
 
 //Variables 
@@ -9,9 +11,9 @@ let age = 28;
 let money = 20;
 let birthYear;
 let oldAge;
-let oldAge = age + 10;
-let birthYear - year - age;
+ oldAge = age + 10;
+ birthYear - year - age;
 
 console.log("hi "+ username + " as of " + year + " you are " + age + " years old. You have " + money + "dollars")
-console.log( "You were born in " + birthyear)
+console.log( "You were born in " + birthYear)
 
