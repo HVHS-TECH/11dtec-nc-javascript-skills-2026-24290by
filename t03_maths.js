@@ -29,6 +29,3 @@ console.log("you havde " + money + "dollars ")
 console.log("you spend half your money, now you have" + )
 console.log("Then you get $3, now you have ")
 
-/******************************
- Functions
- ******************************/
