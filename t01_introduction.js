@@ -7,3 +7,20 @@ console.log(/*Insert your message here!*/)
 
 // This is a single line comment
 
+/******************************
+ Name of task:
+ ******************************/
+console.log("Running T1-intro.js");
+
+//Variables
+
+
+/******************************
+ Main code
+ ******************************/
+
+
+
+/******************************
+ Functions
+ ******************************/
