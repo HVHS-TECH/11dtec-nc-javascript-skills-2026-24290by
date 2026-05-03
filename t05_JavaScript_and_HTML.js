@@ -18,9 +18,9 @@ let oldAge;
  Main code
  ******************************/
 
-OUTPUT.innerHTML += "
-OUTPUT.innerHTML += "
-OUTPUT.innerHTML += "
-OUTPUT.innerHTML += "
-OUTPUT.innerHTML += "
+OUTPUT.innerHTML += (" <p> hi "+ Username + " as of " + year + " you are " + age + " years old. " + age + " years old </p>"
+OUTPUT.innerHTML += "you were born in " + birthYear + "<br>"
+OUTPUT.innerHTML += "in 10 years you will be " + oldAge + " years old <br>"
+OUTPUT.innerHTML += " 
+OUTPUT.innerHTML += " 
 OUTPUT.innerHTML += "
