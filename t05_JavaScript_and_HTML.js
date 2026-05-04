@@ -18,10 +18,8 @@ let oldAge;
  Main code
  ******************************/
 
-OUTPUT.innerHTML += (" <p> hi "+ Username + " as of " + year + " you are " + age + " years old. " + age + " years old </p>"
-OUTPUT.innerHTML += "you were born in " + birthYear + "<br>"
-OUTPUT.innerHTML += "in 10 years you will be " + oldAge + " years old <br>"
-OUTPUT.innerHTML += "
-OUTPUT.innerHTML += "  
-OUTPUT.innerHTML += " 
-OUTPUT.innerHTML += " 
+OUTPUT.innerHTML += ("<p>hi " + Username + " as of " + year + " you are " + age + " years old.</p>");
+OUTPUT.innerHTML += ("<p>you were born in " + birthYear + "</p>");
+OUTPUT.innerHTML += ("<p>in 10 years you will be " + oldAge + "</p>");
+OUTPUT.innerHTML += ("<p>you have " + halfMoney + " pounds</p>");
+OUTPUT.innerHTML += ("<p>you have " + money + " pounds</p>");
