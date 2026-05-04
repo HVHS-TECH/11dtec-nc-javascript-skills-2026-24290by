@@ -17,7 +17,7 @@ let oldAge;
 /******************************
  Main code
  ******************************/
-
+let OUTPUT = document.getElementById("spaceForJavaScriptOutput")
 OUTPUT.innerHTML += ("<p>hi " + Username + " as of " + year + " you are " + age + " years old.</p>");
 OUTPUT.innerHTML += ("<p>you were born in " + birthYear + "</p>");
 OUTPUT.innerHTML += ("<p>in 10 years you will be " + oldAge + "</p>");
