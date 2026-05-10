@@ -23,11 +23,3 @@ OUTPUT.innerHTML += ("<p>you were born in " + birthYear + "</p>");
 OUTPUT.innerHTML += ("<p>in 10 years you will be " + oldAge + "</p>");
 OUTPUT.innerHTML += ("<p>you have " + halfMoney + " pounds</p>");
 OUTPUT.innerHTML += ("<p>you have " + money + " pounds</p>");
-
-<button onClick="start()">START</button>
-
-  <p>Open the console <code>(Ctrl-shift-i)</code></p>
-
-<button onclick="start()">Start</button>
-
-<div id="spaceForJavaScriptOutput"></div>
