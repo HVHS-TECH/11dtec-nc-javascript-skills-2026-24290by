@@ -24,14 +24,6 @@ OUTPUT.innerHTML += ("<p>in 10 years you will be " + oldAge + "</p>");
 OUTPUT.innerHTML += ("<p>you have " + halfMoney + " pounds</p>");
 OUTPUT.innerHTML += ("<p>you have " + money + " pounds</p>");
 
-
-<button onclick="start()">start</button>
-  <div id="spaceForJavaScriptOutput">
-
-    The output of your script will go here.
-
-  </div>
-
 function writeLine() {
     // Add a line to the html page
     OUTPUT.innerHTML += "<p>Less code matters</p>";
