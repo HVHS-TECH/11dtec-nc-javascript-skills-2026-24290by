@@ -25,7 +25,12 @@ OUTPUT.innerHTML += ("<p>you have " + halfMoney + " pounds</p>");
 OUTPUT.innerHTML += ("<p>you have " + money + " pounds</p>");
 
 
+<button onclick="start()">start</button>
+  <div id="spaceForJavaScriptOutput">
 
+    The output of your script will go here.
+
+  </div>
 
 function writeLine() {
     // Add a line to the html page
