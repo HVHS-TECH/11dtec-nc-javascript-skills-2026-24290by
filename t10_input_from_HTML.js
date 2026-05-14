@@ -1,1 +1,2 @@
-/* Paste your code from the last task */
+const OUTPUT = document.getElementById("JavaScriptOutput");
+OUTPUT.innerHTML = "Hello world!<br>";
