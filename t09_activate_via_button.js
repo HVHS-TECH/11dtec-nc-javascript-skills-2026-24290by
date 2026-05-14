@@ -25,6 +25,8 @@ OUTPUT.innerHTML += ("<p>you have " + halfMoney + " pounds</p>");
 OUTPUT.innerHTML += ("<p>you have " + money + " pounds</p>");
 
 
+
+
 function writeLine() {
     // Add a line to the html page
     OUTPUT.innerHTML += "<p>Less code matters</p>";
