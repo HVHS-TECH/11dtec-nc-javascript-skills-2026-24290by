@@ -18,6 +18,11 @@ let OUTPUT = document.getElementById("spaceForJavaScriptOutput")
  Main code
  ******************************/
 
+OUTPUT.innerHTML += ("<p>hi " + " as of " + year + " you are " + age + " years old.</p>");
+OUTPUT.innerHTML += ("<p>you were born in " + birthYear + "</p>");
+OUTPUT.innerHTML += ("<p>in 40 years you will be " + oldAge + "</p>");
+OUTPUT.innerHTML += ("<p>you have " + halfMoney + " pounds</p>");
+OUTPUT.innerHTML += ("<p>you have " + money + " pounds</p>");
 
 function writeLine() {
     // Add a line to the html page
