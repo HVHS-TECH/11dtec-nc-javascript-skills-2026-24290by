@@ -18,11 +18,8 @@ let OUTPUT = document.getElementById("spaceForJavaScriptOutput")
  Main code
  ******************************/
 
-OUTPUT.innerHTML += ("<p>hi " + " as of " + year + " you are " + age + " years old.</p>");
-OUTPUT.innerHTML += ("<p>you were born in " + birthYear + "</p>");
-OUTPUT.innerHTML += ("<p>in 40 years you will be " + oldAge + "</p>");
-OUTPUT.innerHTML += ("<p>you have " + halfMoney + " pounds</p>");
-OUTPUT.innerHTML += ("<p>you have " + money + " pounds</p>");
+
+
 
 function start() {
     spaceForJavaScriptOutput.innerHTML
@@ -31,5 +28,16 @@ function start() {
     spaceForJavaScriptOutput.innerHTML
 }
 
-
-  
+  function start() {
+    OUTPUT.innerHTML += ("<p>hi " + " as of " + year + " you are " + age + " years old.</p>");
+OUTPUT.innerHTML += ("<p>you were born in " + birthYear + "</p>");
+OUTPUT.innerHTML += ("<p>in 40 years you will be " + oldAge + "</p>");
+OUTPUT.innerHTML += ("<p>you have " + halfMoney + " pounds</p>");
+OUTPUT.innerHTML += ("<p>you have " + money + " pounds</p>");
+}
+function displayWelcome(_name, _age){
+  OUTPUT.innerHTML += "<p>Welcome to the page "+_name+"</p>";
+  OUTPUT.innerHTML += "<p>You are "+_age+" years old</p>";
+}
+displayWelcome("Ms Alice", 16);
+  displayWelcome("Mr Bob", 99);
