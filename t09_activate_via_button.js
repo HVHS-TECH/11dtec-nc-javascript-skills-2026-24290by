@@ -21,12 +21,7 @@ let OUTPUT = document.getElementById("spaceForJavaScriptOutput")
 
 
 
-function start() {
-    spaceForJavaScriptOutput.innerHTML
-    spaceForJavaScriptOutput.innerHTML
-    answer = currentYear - userAge;
-    spaceForJavaScriptOutput.innerHTML
-}
+ 
 
   function start() {
     OUTPUT.innerHTML += ("<p>hi " + " as of " + year + " you are " + age + " years old.</p>");
