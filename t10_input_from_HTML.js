@@ -11,7 +11,7 @@ let money = 20;
 let birthYear;
 let oldAge;
  oldAge = age + 10;
- birthYear - year - age;
+
 
 let OUTPUT = document.getElementById("spaceForJavaScriptOutput")
 /******************************
@@ -21,7 +21,7 @@ let OUTPUT = document.getElementById("spaceForJavaScriptOutput")
 
 
 
-function start() {
+
     spaceForJavaScriptOutput.innerHTML
     spaceForJavaScriptOutput.innerHTML
     answer = currentYear - userAge;
