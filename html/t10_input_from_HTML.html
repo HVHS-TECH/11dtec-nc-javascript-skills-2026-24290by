@@ -31,7 +31,11 @@
 
   <script src="../t10_input_from_HTML.js"></script>
 
-  
+  <form onsubmit="return false;">
+    <label for="formName">User:</label>
+    <input type="text" id="nameField" name="formName">
+    <input type="submit" onClick="getFormInput()">
+  </form>
 
 </body>
 
@@ -39,11 +43,4 @@
 <!--*************************************************************
   END OF T10_INPUT_FROM_HTML.HTML
 **************************************************************-->
-
-
-  <form onsubmit="return false;">
-  <label for="formName">User:</label>
-  <input type="text" id="nameField" name="formName">
-  <input type="submit" onClick=getFormInput()>
-</form>
 
