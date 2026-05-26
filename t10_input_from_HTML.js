@@ -43,9 +43,3 @@ displayWelcome("Ms Alice", 16);
   displayWelcome("Mr Bob", 99);
 
 
-
-  <form onsubmit="return false;">
-  <label for="formName">Name:</label>
-  <input type="text" id="nameField" name="formName">
-  <input type="submit" onClick=getFormInput()>
-</form>
