@@ -17,7 +17,7 @@ let halfMoney = money / 2;
 let OUTPUT = document.getElementById("javaScriptOutput");
 
 function welcome(){
-  OUTPUT.innerHTML += "<p>Your New balance "+money+"</p>";
+  OUTPUT.innerHTML += "<p>Welcome to the page "+username+"</p>";
 }
 
 
@@ -36,7 +36,6 @@ function getFormInput(){
  Main code
  ******************************/
 
-}
 
 console.log("Hello world");
   OUTPUT.innerHTML = "<p>Welcome to the page "+username+"</p>";
