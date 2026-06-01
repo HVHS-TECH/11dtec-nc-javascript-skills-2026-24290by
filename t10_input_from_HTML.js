@@ -4,7 +4,7 @@
 
 
 //Variables 
-let username = "Ben";
+let username ;
 let year = 2026;
 let age = 28;
 let money = 20;
@@ -14,28 +14,34 @@ oldAge = age + 10;
 birthYear = year - age;
 let halfMoney = money / 2;
 
-let OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+let OUTPUT = document.getElementById("javaScriptOutput");
+
+function welcome(){
+  OUTPUT.innerHTML += "<p>Welcome to the page "+username+"</p>";
+}
+
+
+function displayProduct(_name,_price){
+  OUTPUT.innerHTML += "<p>The product "+_name+" costs "+_price+" pounds</p>";
+}
+function getFormInput(){
+  const NAME_FIELD = document.getElementById("nameField");
+  username = NAME_FIELD.value;
+
+
+
+
+
 /******************************
  Main code
  ******************************/
 
 
+console.log("Hello world");
+  OUTPUT.innerHTML = "<p>Welcome to the page "+username+"</p>";
+  OUTPUT.innerHTML += "<p>You are "+age+" years old</p>";
 
-
-
-  function start() {
-    OUTPUT.innerHTML += ("<p>hi " + " as of " + year + " you are " + age + " years old.</p>");
-OUTPUT.innerHTML += ("<p>you were born in " + birthYear + "</p>");
-OUTPUT.innerHTML += ("<p>in 40 years you will be " + oldAge + "</p>");
-OUTPUT.innerHTML += ("<p>you have " + halfMoney + " pounds</p>");
-OUTPUT.innerHTML += ("<p>you have " + money + " pounds</p>");
+welcome();
 }
-function displayWelcome(_name, _age){
-  OUTPUT.innerHTML += "<p>Welcome to the page "+_name+"</p>";
-  OUTPUT.innerHTML += "<p>You are "+_age+" years old</p>";
-}
-
-displayWelcome("Ms Alice", 16);
-displayWelcome("Mr Bob", 99);
 
 
