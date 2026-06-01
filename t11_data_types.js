@@ -37,7 +37,6 @@ function getFormInput(){
  ******************************/
 
 }
- let userAge = AGE_FIELD.value;
 
 console.log("Hello world");
   OUTPUT.innerHTML = "<p>Welcome to the page "+username+"</p>";
