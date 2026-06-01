@@ -28,18 +28,17 @@ function getFormInput(){
   const NAME_FIELD = document.getElementById("nameField");
   username = NAME_FIELD.value;
 
-
-
-
-
 /******************************
  Main code
  ******************************/
 
 
+
+
 console.log("Hello world");
   OUTPUT.innerHTML = "<p>Welcome to the page "+username+"</p>";
   OUTPUT.innerHTML += "<p>You are "+age+" years old</p>";
+
 
 welcome();
 }
