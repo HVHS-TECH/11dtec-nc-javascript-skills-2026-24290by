@@ -12,7 +12,7 @@ let money = 20;
 let birthYear;
 let oldAge;
  oldAge = age + 10;
- birthYear - year - age;
+ birthYear = year - age;
 
 console.log("hi "+ username + " as of " + year + " you are " + age + " years old. You have " + money + "dollars")
 console.log( "You were born in " + birthYear)
