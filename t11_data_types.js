@@ -17,7 +17,7 @@ let halfMoney = money / 2;
 let OUTPUT = document.getElementById("javaScriptOutput");
 
 function welcome(){
-  OUTPUT.innerHTML += "<p>Welcome to the page "+username+"</p>";
+  OUTPUT.innerHTML += "<p>Your New balance "+money+"</p>";
 }
 
 
