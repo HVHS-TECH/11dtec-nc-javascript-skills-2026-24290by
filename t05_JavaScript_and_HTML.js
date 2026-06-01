@@ -27,4 +27,6 @@ console.log("you were born in " + birthYear)
 console.log("in 10 years you will be " + oldAge + " years old")
 console.log("you have " + money + " dollars ")
 
+const OUTPUT = document.getElementById("JavaScriptOutput");
+OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
 
