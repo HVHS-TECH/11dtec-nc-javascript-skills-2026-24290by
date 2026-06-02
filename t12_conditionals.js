@@ -64,8 +64,14 @@ function showNewAge(){
     OUTPUT.innerHTML += "<p>Please enter a valid age</p>";
     return;
   }
-  const newAge = inputAge + 0;
-  OUTPUT.innerHTML += "<p>Your new age is "+newAge+"</p>";
+
+  if (inputAge > 70) {
+    OUTPUT.innerHTML += "<p>You are too old</p>";
+  } else if (inputAge < 70) {
+    OUTPUT.innerHTML += "<p>You are too young</p>";
+  } else {
+    OUTPUT.innerHTML += "<p>You are exactly 70 — just right</p>";
+  }
 }
 
 
