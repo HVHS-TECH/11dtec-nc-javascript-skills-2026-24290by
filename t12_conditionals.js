@@ -34,7 +34,7 @@ function getFormInput(){
  ******************************/
 
 if (age < 70){
-    console.log("Definitely too young")
+    console.log("Definitely too young ")
 }
 
 if(age >= 70){
@@ -64,7 +64,7 @@ function showNewAge(){
     OUTPUT.innerHTML += "<p>Please enter a valid age</p>";
     return;
   }
-  const newAge = inputAge + 1;
+  const newAge = inputAge + 0;
   OUTPUT.innerHTML += "<p>Your new age is "+newAge+"</p>";
 }
 
