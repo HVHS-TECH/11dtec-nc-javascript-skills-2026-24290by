@@ -36,7 +36,7 @@ function getFormInput(){
 
 
 console.log("Hello world");
-  OUTPUT.innerHTML = "<p>Welcome to the page "+username+"</p>";
+  OUTPUT.innerHTML = "<p>Your New Balance "+balance+"</p>";
   OUTPUT.innerHTML += "<p>You are "+age+" years old</p>";
 
 
