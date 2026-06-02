@@ -8,6 +8,7 @@ let username ;
 let year = 2026;
 let age = 28;
 let money = 20;
+let balance = money;
 let birthYear;
 let oldAge;
 oldAge = age + 10;
