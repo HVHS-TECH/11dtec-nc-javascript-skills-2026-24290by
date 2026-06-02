@@ -44,6 +44,17 @@ console.log("Hello world");
 welcome();
 }
 
+function showNewAge(){
+  const AGE_FIELD = document.getElementById("ageField");
+  const inputAge = Number(AGE_FIELD.value);
+  if (isNaN(inputAge)){
+    OUTPUT.innerHTML += "<p>Please enter a valid age</p>";
+    return;
+  }
+  const newAge = inputAge + 1;
+  OUTPUT.innerHTML += "<p>Your new age is "+newAge+"</p>";
+}
+
 
 
 
