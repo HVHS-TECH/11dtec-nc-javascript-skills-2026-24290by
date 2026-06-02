@@ -1,1 +1,60 @@
-/* Paste your code from the last task */
+/* Paste your code from the last task *//******************************
+ Name of task: Maths
+ ******************************/
+
+
+//Variables 
+let username ;
+let year = 2026;
+let age = 28;
+let money = 20;
+let balance = money;
+let birthYear;
+let oldAge;
+oldAge = age + 10;
+birthYear = year - age;
+let halfMoney = money / 2;
+
+let OUTPUT = document.getElementById("javaScriptOutput");
+
+function welcome(){
+  OUTPUT.innerHTML += "<p>Welcome to the page "+username+"</p>";
+}
+
+
+function displayProduct(_name,_price){
+  OUTPUT.innerHTML += "<p>The product "+_name+" costs "+_price+" pounds</p>";
+}
+function getFormInput(){
+  const NAME_FIELD = document.getElementById("nameField");
+  username = NAME_FIELD.value;
+
+/******************************
+ Main code
+ ******************************/
+
+
+
+
+console.log("Hello world");
+  OUTPUT.innerHTML = "<p>Your New Balance "+balance+"</p>";
+  OUTPUT.innerHTML += "<p>You are "+age+" years old</p>";
+
+
+welcome();
+}
+
+function showNewAge(){
+  const AGE_FIELD = document.getElementById("ageField");
+  const inputAge = Number(AGE_FIELD.value);
+  if (isNaN(inputAge)){
+    OUTPUT.innerHTML += "<p>Please enter a valid age</p>";
+    return;
+  }
+  const newAge = inputAge + 1;
+  OUTPUT.innerHTML += "<p>Your new age is "+newAge+"</p>";
+}
+
+
+
+
