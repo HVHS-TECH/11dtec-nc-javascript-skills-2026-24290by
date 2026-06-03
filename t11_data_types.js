@@ -28,31 +28,17 @@ function displayProduct(_name,_price){
 function getFormInput(){
   const NAME_FIELD = document.getElementById("nameField");
   username = NAME_FIELD.value;
-
-/******************************
- Main code
- ******************************/
-
-
-
-
-console.log("Hello world");
-  OUTPUT.innerHTML = "<p>Your New Balance "+balance+"</p>";
-  OUTPUT.innerHTML += "<p>You are "+age+" years old</p>";
-
-
-welcome();
 }
 
 function showNewAge(){
   const AGE_FIELD = document.getElementById("ageField");
   const inputAge = Number(AGE_FIELD.value);
   if (isNaN(inputAge)){
-    OUTPUT.innerHTML += "<p>Please enter a valid age</p>";
+    OUTPUT.innerHTML = "<p>Please enter a valid age</p>";
     return;
   }
-  const newAge = inputAge + 1;
-  OUTPUT.innerHTML += "<p>Your new age is "+newAge+"</p>";
+  OUTPUT.innerHTML = "<p>Name: "+username+"</p>";
+  OUTPUT.innerHTML += "<p>Age: "+inputAge+"</p>";
 }
 
 
