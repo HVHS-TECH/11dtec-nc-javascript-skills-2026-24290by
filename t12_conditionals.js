@@ -25,7 +25,17 @@ function welcome(){
  Main code
  ******************************/
 
+if (money < 70){
+    console.log("to broke")
+}
 
+if(money >= 70){
+    console.log("you can buy it")
+}
+
+if(money == 70){
+    console.log("your gonna be broke")
+}
 
 function displayProduct(_name,_price){
   OUTPUT.innerHTML += "<p>The product "+_name+" costs "+_price+" mOney</p>";
