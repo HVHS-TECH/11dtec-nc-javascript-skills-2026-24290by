@@ -25,7 +25,7 @@ function welcome(){
  Main code
  ******************************/
 
-if (money < 70){
+if ( < 70){
     console.log("to broke")
 }
 
