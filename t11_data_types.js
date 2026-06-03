@@ -31,14 +31,17 @@ function getFormInput(){
 }
 
 function showNewAge(){
+  const NAME_FIELD = document.getElementById("nameField");
+  username = NAME_FIELD.value;
+  
   const AGE_FIELD = document.getElementById("ageField");
   const inputAge = Number(AGE_FIELD.value);
   if (isNaN(inputAge)){
     OUTPUT.innerHTML = "<p>Please enter a valid age</p>";
     return;
   }
-  OUTPUT.innerHTML = "<p>Name: "+username+"</p>";
-  OUTPUT.innerHTML += "<p>Age: "+inputAge+"</p>";
+  OUTPUT.innerHTML = "<p>Name "+username+"</p>";
+  OUTPUT.innerHTML += "<p>Age "+inputAge+"</p>";
 }
 
 
