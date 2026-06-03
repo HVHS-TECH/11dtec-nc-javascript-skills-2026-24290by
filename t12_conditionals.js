@@ -21,6 +21,11 @@ function welcome(){
   OUTPUT.innerHTML += "<p>Welcome to the page "+username+"</p>";
 }
 
+/******************************
+ Main code
+ ******************************/
+
+
 
 function displayProduct(_name,_price){
   OUTPUT.innerHTML += "<p>The product "+_name+" costs "+_price+" mOney</p>";
