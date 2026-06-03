@@ -23,7 +23,7 @@ function welcome(){
 
 
 function displayProduct(_name,_price){
-  OUTPUT.innerHTML += "<p>The product "+_name+" costs "+_price+" pounds</p>";
+  OUTPUT.innerHTML += "<p>The product "+_name+" costs "+_price+" mOney</p>";
 }
 function getFormInput(){
   const NAME_FIELD = document.getElementById("nameField");
@@ -37,7 +37,7 @@ function showNewAge(){
   const AGE_FIELD = document.getElementById("ageField");
   const inputAge = Number(AGE_FIELD.value);
   if (isNaN(inputAge)){
-    OUTPUT.innerHTML = "<p>Please enter a valid age</p>";
+    OUTPUT.innerHTML = "<p>add ageeee</p>";
     return;
   }
   OUTPUT.innerHTML = "<p>Name "+username+"</p>";
