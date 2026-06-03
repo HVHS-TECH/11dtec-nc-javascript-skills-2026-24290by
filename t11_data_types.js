@@ -37,11 +37,11 @@ function showNewAge(){
   const AGE_FIELD = document.getElementById("ageField");
   const inputAge = Number(AGE_FIELD.value);
   if (isNaN(inputAge)){
-    OUTPUT.innerHTML = "<p>add ageeee</p>";
+    OUTPUT.innerHTML = "<p>put pocket money</p>";
     return;
   }
   OUTPUT.innerHTML = "<p>Name "+username+"</p>";
-  OUTPUT.innerHTML += "<p>Age "+inputAge+"</p>";
+  OUTPUT.innerHTML += "<p>pocket money: "+inputAge+"</p>";
 }
 
 
