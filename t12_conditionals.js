@@ -25,7 +25,7 @@ function welcome(){
  Main code
  ******************************/
 
-if ( < 70){
+if (name < 70){
     console.log("to broke")
 }
 
