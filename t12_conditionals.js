@@ -48,4 +48,3 @@ function getFormInput() {
 
 
 
-Zoomed out of item. 
