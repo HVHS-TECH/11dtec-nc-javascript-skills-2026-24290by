@@ -14,7 +14,7 @@ let halfMoney = money / 2;
 
 let OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
-
+//functions
 function start() {
   
 }
@@ -37,6 +37,15 @@ function getFormInput() {
   OUTPUT.innerHTML += "<p>Hello " + name + "</p>";
   OUTPUT.innerHTML += "<p>You have $" + enteredPocketmoney + " money </p>";
 
+function calculatePay(_hours){
+    // The pay calculation is complex
+    // so we hide it in a function
+    let pay = _hours * 18.80; // Training wage
+    pay = pay - (pay * 0.105); // tax deduction
+    pay = pay - (pay * 0.04); // kiwisaver
+    pay = pay + 10; // bonus
+    return pay;
+}
 
   if (enteredPocketmoney >= 4) {
     OUTPUT.innerHTML += "<p>You can buy a chocolate bar</p>";
