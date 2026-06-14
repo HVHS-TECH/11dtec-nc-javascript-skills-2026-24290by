@@ -4,8 +4,9 @@
 
 
 //Variables 
-let username ;
-let year = 2026;
+let user = "John";
+let username = "John";
+let year = 2024;
 let age = 28;
 let money = 20;
 let balance = money;
